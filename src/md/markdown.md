@@ -95,15 +95,12 @@
 ```
 ````
 
-````
-
-```markdown
-
 예시:
+
+````markdown
 ```javascript
 console.log('Hello, world!');
-````
-
+```
 ````
 
 ## 11. 강조표시
@@ -112,7 +109,7 @@ console.log('Hello, world!');
 
 ```markdown
 <mark>강조</mark>
-````
+```
 
 ## 12. 구분선
 
