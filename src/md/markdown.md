@@ -159,7 +159,7 @@ console.log('Hello, world!');
 
 - `<details>`, `<summary>` 사용, 접기/펼치기 기능 구현 가능
 
-```markdown
+```html
 <details>
   <summary>안녕하세요</summary>
   까꿍
