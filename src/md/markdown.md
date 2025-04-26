@@ -149,11 +149,12 @@ console.log('Hello, world!');
 <em>기울임</em>
 <sub>아래첨자</sub>
 <sup>위첨자</sup>
-<details>
-  <summary>자세히 보기</summary>
-  숨겨진 내용
-</details>
 ```
+
+<strong>굵게</strong>
+<em>기울임</em>
+<sub>아래첨자</sub>
+<sup>위첨자</sup>
 
 ## 16. 요약 및 펼치기
 
@@ -165,3 +166,8 @@ console.log('Hello, world!');
   까꿍
 </details>
 ```
+
+<details>
+  <summary>안녕하세요</summary>
+  까꿍
+</details>
