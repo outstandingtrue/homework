@@ -97,8 +97,9 @@
 
 ````
 
-예시:
 ```markdown
+
+예시:
 ```javascript
 console.log('Hello, world!');
 ````
