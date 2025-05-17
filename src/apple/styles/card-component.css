@@ -1,3 +1,93 @@
-@import "./reset.css";
-@import "./theme.css";
-@import "./base.css";
+@import './reset.css';
+@import './theme.css';
+@import './base.css';
+/* btn */
+.btn {
+  padding: 0.5625rem 0.75rem;
+  font-size: var(--xx-small-text);
+  color: var(--black);
+  border-radius: 2.5rem;
+  display: inline-block;
+
+  &.fill {
+    background: var(--black);
+    color: #fff;
+  }
+  &.ghost {
+    border: 1px solid var(--black);
+  }
+
+  @media (width > 730px) {
+    & {
+      font-size: var(--x-small-text);
+    }
+  }
+}
+
+/* card */
+.card-wrap {
+  min-block-size: 560px;
+  block-size: 50vh;
+  padding-block-start: var(--large-spacing);
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .card {
+    color: var(--black);
+    text-align: center;
+    margin-block-end: var(--small-spacing);
+
+    h4 {
+      font-weight: bold;
+      font-size: var(--large-text);
+      margin-block-end: var(--x-small-spacing);
+    }
+    p {
+      font-size: 1.25rem;
+      margin-block-end: var(--x-small-spacing);
+      line-height: var(--line-normal);
+    }
+    em {
+      color: var(--gray);
+      font-size: var(--small-text);
+      font-style: normal;
+    }
+  }
+
+  .btn-wrap {
+    display: inline-block;
+
+    .btn {
+      margin-inline-end: var(--base-spacing);
+
+      &:last-child {
+        margin-inline-end: 0;
+      }
+    }
+  }
+  @media (width > 1024px) {
+    & {
+      min-block-size: 640px;
+      block-size: 60vh;
+      padding-block-start: var(--extra-large-spacing);
+    }
+
+    .card {
+      margin-block-end: var(--small-spacing);
+
+      h4 {
+        font-size: var(--extra-large-text);
+        margin-block-end: var(--small-spacing);
+      }
+      p {
+        margin-block-end: var(--small-spacing);
+        font-size: var(--medium-text);
+      }
+      em {
+        font-size: var(--small-text);
+      }
+    }
+  }
+}
